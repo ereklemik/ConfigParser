@@ -25,5 +25,12 @@ section['Faculty'] = 'Information Systems'
 section['Degree'] = 'Bachelor'
 
 
+additional_info = {
+    'Mobile': '+995 579 111 124',
+    'Email' : 'johndoe@example.com',
+    'Address': 'Tbilisi',
+}
+
+config['AdditionalInfo'] = additional_info
 with open(file, 'w') as f:
     config.write(f)
